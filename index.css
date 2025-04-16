@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+
+/* Responsive Image */
+@media (max-width: 600px) {
+    img {
+        width: 100%; /* Make image responsive */
+    }
+}
