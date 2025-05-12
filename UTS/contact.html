@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f8fb;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d66;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        main {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #007a78;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #007a78;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #005f5c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #e0f0f3;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HUBUNGI</h1>
+</header>
+
+<main>
+    <h2>Informasi Kontak</h2>
+    <div class="contact-info">
+        <p><strong>Alamat:</strong> Duri Kosambi, Kecamatan Cengkareng, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11750</p>
+        <p><strong>Email:</strong> elfira2332017@itpln.ac.id</p>
+        <p><strong>Instagram:</strong> @_risaelfira17</p>
+    </div>
+
+    <h2>Kirim Pesan</h2>
+    <form action="#" method="POST">
+        <label for="name">Nama</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Pesan</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2025 Elfira Risa</p>
+</footer>
+
+</body>
+</html>
