@@ -1,29 +1,43 @@
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 30px;
+   color: #333;
 }
 
-/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 200px;
+}
+
 h1 {
-    text-align: center;
-    font-size: 2.5em;
-    color: #444;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 6px;
+  color: #000000;
+}
+.section {
+  margin-top: 30px;
+}
+.section h3 {
+  font-size: 18px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  
+}
+.section ul {
+  list-style-type: square;
+  margin-inline-start: 0%;
 }
 
-/* Image Styles */
-img {
-    display: block;
-    margin: 0 auto; /* Center the image */
-}
-
-
-/* Responsive Image */
-@media (max-width: 600px) {
-    img {
-        width: 100%; /* Make image responsive */
-    }
+li,p {
+  margin-top: 4px;
 }
