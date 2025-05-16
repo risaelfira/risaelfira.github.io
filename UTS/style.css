@@ -1,43 +1,80 @@
+/* Reset dasar */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  margin: 30px;
-   color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 0;
+  margin: 0;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 100px;
-  margin-bottom: 200px;
-}
-
+/* Header dengan background image */
 h1 {
-  font-size: 24px;
-  margin-bottom: 0;
-}
-h2 {
-  font-size: 16px;
-  font-weight: normal;
-  margin-top: 6px;
-  color: #000000;
-}
-.section {
-  margin-top: 30px;
-}
-.section h3 {
-  font-size: 18px;
-  border-bottom: 2px solid #000000;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-  
-}
-.section ul {
-  list-style-type: square;
-  margin-inline-start: 0%;
+  background-image: url("PT PLN BATAM.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+  margin-bottom: 30px;
 }
 
-li,p {
-  margin-top: 4px;
+/* Sub Judul */
+h2 {
+  text-align: center;
+  color: #004d99;
+  margin-bottom: 20px;
+}
+
+/* Visi Misi dan Motto Heading */
+h3 {
+  margin-top: 30px;
+  color: #0066cc;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Paragraf */
+p {
+  margin: 15px 20px;
+  font-size: 16px;
+  max-width: 900px;
+  line-height: 1.8;
+}
+
+/* List Nilai Perusahaan */
+ul {
+  list-style-type: square;
+  margin: 10px 40px;
+  padding-left: 0;
+  max-width: 800px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    height: 180px;
+    padding: 10px;
+  }
+
+  p, ul {
+    margin: 15px;
+    font-size: 15px;
+  }
 }
